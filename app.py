@@ -1,4 +1,3 @@
-import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -74,5 +73,4 @@ final_ans = model.predict([all_ans])[0]
         st.info("❌Customer will not Buy the Insurance❌")
     else:
         st.success("✅Customer will buy the Insurance✅")
-
                                                  
